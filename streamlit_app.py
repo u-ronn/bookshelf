@@ -226,3 +226,7 @@ def main():
     st.download_button(label='Download file', data=st.session_state.book_csv,
                        file_name="bookshelf.csv")
 
+
+
+if __name__ == '__main__':
+    main()
